@@ -8,12 +8,6 @@ DB_HOST = 'localhost'
 DB_PORT = '5432'
 DB_NAME = 'ny_taxi'
 
-# PostgreSQL connection parameters
-#DB_USER = 'postgres'
-#DB_PASSWORD = 'postgres'
-#DB_HOST = 'localhost'
-#DB_PORT = '5433'  # As per docker-compose.yaml
-#DB_NAME = 'ny_taxi'
 
 # Create SQLAlchemy engine
 engine = create_engine(
