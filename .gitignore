@@ -1,0 +1,44 @@
+# Byte-compiled / Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.env/
+.venv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git ignore local files or folders you don’t want to track
+week1/data/
+data/
+temp/
+
+# Ignore Poetry / dependency lock files
+poetry.lock
+uv.lock
+
+*.egg-info/
+*.dist-info/
