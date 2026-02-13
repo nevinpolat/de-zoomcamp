@@ -103,17 +103,17 @@ sources:
         description: Raw For-Hire Vehicle (FHV) trip data for 2019
         loaded_at_field: pickup_datetime
         columns:
-      - name: dispatching_base_num
-        description: Dispatching base number
-      - name: pickup_datetime
-        description: Trip start timestamp
-      - name: dropOff_datetime
-        description: Trip end timestamp
-      - name: PUlocationID
-        description: Pickup location ID
-      - name: DOlocationID
-        description: Dropoff location ID
-      - name: SR_Flag
-        description: SR flag
-      - name: Affiliated_base_number
-        description: Affiliated base number
+          - name: dispatching_base_num
+            description: Dispatching base number
+          - name: pickup_datetime
+            description: Trip start timestamp
+          - name: dropOff_datetime
+            description: Trip end timestamp
+          - name: PUlocationID
+            description: Pickup location ID
+          - name: DOlocationID
+            description: Dropoff location ID
+          - name: SR_Flag
+            description: SR flag
+          - name: Affiliated_base_number
+            description: Affiliated base number
