@@ -5,11 +5,11 @@ sources:
       {%- if target.type == 'bigquery' -%}
         {{ env_var('DBT_GCP_PROJECT_ID', 'please-add-your-gcp-project-id-here') }}
       {%- else -%}
-        nyc__yellow_taxi
+        taxi_rides_ny
       {%- endif -%}
     schema: |
       {%- if target.type == 'bigquery' -%}
-        nytaxi
+        nyc__yellow_taxi
       {%- else -%}
         prod
       {%- endif -%}
