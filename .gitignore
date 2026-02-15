@@ -12,7 +12,7 @@ env/
 .ipynb_checkpoints/
 
 # Data files
-*.csv
+#*.csv
 *.tsv
 *.xlsx
 *.db
