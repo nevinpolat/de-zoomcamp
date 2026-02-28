@@ -42,3 +42,7 @@ uv.lock
 
 *.egg-info/
 *.dist-info/
+
+.bruin.yml
+logs/runs
+logs/*.log
